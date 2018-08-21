@@ -1,0 +1,14 @@
+name: ProPvP
+version: 0.1
+main: me.Pro.ProPvP.Main
+loadbefore: 
+    - Essentials
+commands:
+    kit:
+        description: Do /kit to get all the kits you have.
+    buykit:
+        description: Do /buykit to get all the buyable kits.
+    setkillmsg:
+        description: Do /setkillmsg to set a kill message.
+    stats:
+        description: Do /stats to see your stats or other people's!

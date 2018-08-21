@@ -1,0 +1,582 @@
+kits:
+  list:
+  - recruit
+  - private
+  - corporal
+  - scout
+  - general
+  - sniper
+  - sergeant
+  - lieutenant
+  - vip
+  - vipplus
+  - vipplusplus
+  starterkits:
+  - recruit
+  - private
+  - corporal
+  buyablekits:
+  - scout
+  - general
+  - sniper
+  - sergeant
+  - lieutenant
+  donorkits:
+  - vip
+  - vipplus
+  - vipplusplus
+  loadouts:
+    recruit:
+      cooldown: 30
+      potionamount: 1
+      icon:
+        name: '&6Recruit'
+        lore: 'Full chain, sharp 1 sword, and an infinity bow!'
+        enchantamount: 1
+        piece: 'STONE_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 1
+      helmet:
+        enchantamount: 1
+        piece: 'CHAINMAIL_HELMET'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      chestplate:
+        piece: 'CHAINMAIL_CHESTPLATE'
+      leggings:
+        piece: 'CHAINMAIL_LEGGINGS'
+      boots:
+        enchantamount: 1
+        piece: 'CHAINMAIL_BOOTS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      sword:
+        enchantamount: 1
+        piece: 'STONE_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 1
+      bow:
+        enchantamount: 1
+        enchant1:
+          type: 'ARROW_INFINITE'
+          level: 1
+      arrow:
+        ammount: 1
+      potion1:
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 1
+
+
+    private:
+      cooldown: 120
+      potionamount: 1
+      icon:
+        name: '&6Private'
+        lore: 'Full chain, sharp 2 sword, and an infinity bow!'
+        enchantamount: 1
+        piece: 'STONE_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 2
+      helmet:
+        piece: 'CHAINMAIL_HELMET'
+      chestplate:
+        enchantamount: 1
+        piece: 'CHAINMAIL_CHESTPLATE'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      leggings:
+        enchantamount: 1
+        piece: 'CHAINMAIL_LEGGINGS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      boots:
+        piece: 'CHAINMAIL_BOOTS'
+      sword:
+        enchantamount: 1
+        piece: 'STONE_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 2
+      bow:
+        enchantamount: 1
+        enchant1:
+          type: 'ARROW_INFINITE'
+          level: 1
+      arrow:
+        ammount: 1
+      potion1:
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 2
+
+
+    corporal:
+      cooldown: 600
+      potionamount: 1
+      icon:
+        name: '&6Corporal'
+        lore: 'Almost full iron, sharp 3 sword, and power 1 bow!'
+        enchantamount: 1
+        piece: 'STONE_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 3
+      helmet:
+        piece: 'IRON_HELMET'
+      chestplate:
+        enchantamount: 1
+        piece: 'CHAINMAIL_CHESTPLATE'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      leggings:
+        piece: 'IRON_LEGGINGS'
+      boots:
+        piece: 'IRON_BOOTS'
+      sword:
+        enchantamount: 1
+        piece: 'STONE_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 3
+      bow:
+        enchantamount: 1
+        enchant1:
+          type: 'ARROW_DAMAGE'
+          level: 1
+      arrow:
+        ammount: 64
+      potion1:
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 3
+
+
+    scout:
+      cooldown: 900
+      potionamount: 2
+      price: 300
+      icon:
+        name: '&4Scout'
+        lore: '2 speed pots, half iron and chain, and sharp 3 wood sword!'
+        potion:
+          type: 'SPEED'
+          level: 2
+        amount: 1
+      helmet:
+        piece: 'IRON_HELMET'
+      chestplate:
+        enchantamount: 1
+        piece: 'CHAINMAIL_CHESTPLATE'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      leggings:
+        enchantamount: 1
+        piece: 'CHAINMAIL_LEGGINGS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      boots:
+        piece: 'IRON_BOOTS'
+      sword:
+        enchantamount: 1
+        piece: 'WOOD_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 3
+      potion1:
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 2
+      potion2:
+        type: 'SPEED'
+        level: 2
+        amount: 1
+
+
+    general:
+      cooldown: 1800
+      potionamount: 2
+      price: 600
+      icon:
+        name: '&4General'
+        lore: 'Full iron, sharp 2 iron sword, 3 splash health!'
+        enchantamount: 1
+        piece: 'IRON_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 2
+      helmet:
+        piece: 'IRON_HELMET'
+      chestplate:
+        piece: 'IRON_CHESTPLATE'
+      leggings:
+        piece: 'IRON_LEGGINGS'
+      boots:
+        piece: 'IRON_BOOTS'
+      sword:
+        enchantamount: 1
+        piece: 'IRON_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 2
+      bow:
+        enchantamount: 1
+        enchant1:
+          type: 'ARROW_DAMAGE'
+          level: 1
+      arrow:
+        ammount: 64
+      potion1:
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 3
+      potion2: #This is the splash potions#
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 3
+        splash: 'yes'
+      stick:
+        enchantamount: 1
+        type: 'KNOCKBACK'
+        level: 2
+
+
+    sniper:
+      cooldown: 10
+      price: 1200
+      potionamount: 1
+      icon:
+        name: '&4Sniper'
+        lore: 'Infinity bow with infinity and power, 2 invis pots, and 2 epearls!'
+        piece: 'BOW'
+        enchantamount: 2
+        enchant1:
+          type: 'ARROW_INFINITE'
+          level: 1
+        enchant2:
+          type: 'ARROW_DAMAGE'
+          level: 1
+      sword:
+        enchantamount: 1
+        piece: 'WOOD_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 3
+      bow:
+        enchantamount: 2
+        enchant1:
+          type: 'ARROW_INFINITE'
+          level: 1
+        enchant2:
+          type: 'ARROW_DAMAGE'
+          level: 1
+      arrow:
+        ammount: 1
+      potion1:
+        type: 'INVISIBILITY'
+        level: 1
+        amount: 2
+      epearl:
+        ammount: 2
+
+
+    sergeant:
+      cooldown: 3600
+      potionamount: 3
+      price: 2000
+      icon:
+        name: '&4Sergeant'
+        lore: 'Sharp 3 iron axe, full iron, 1 regen pot!'
+        enchantamount: 1
+        piece: 'IRON_AXE'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 3
+      helmet:
+        enchantamount: 1
+        piece: 'IRON_HELMET'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      chestplate:
+        piece: 'IRON_CHESTPLATE'
+      leggings:
+        piece: 'IRON_LEGGINGS'
+      boots:
+        enchantamount: 1
+        piece: 'IRON_BOOTS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      sword:
+        enchantamount: 1
+        piece: 'IRON_AXE'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 3
+      bow:
+        enchantamount: 1
+        enchant1:
+          type: 'ARROW_DAMAGE'
+          level: 1
+      arrow:
+        ammount: 64
+      potion1:
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 2
+      potion2: # this is the splash potion #
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 1
+        splash: 'yes'
+      potion3:
+        type: 'REGEN'
+        splash: 'yes'
+        level: 2
+        amount: 1
+
+
+    lieutenant:
+      cooldown: 14400
+      potionamount: 2
+      price: 4000
+      icon:
+        name: '&4Lieutenant'
+        lore: 'Full prot 1 iron, sharp 3 iron sword, and 5 gapples!'
+        enchantamount: 1
+        piece: 'IRON_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 3
+      helmet:
+        enchantamount: 1
+        piece: 'IRON_HELMET'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      chestplate:
+        enchantamount: 1
+        piece: 'IRON_CHESTPLATE'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      leggings:
+        enchantamount: 1
+        piece: 'IRON_LEGGINGS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      boots:
+        enchantamount: 1
+        piece: 'IRON_BOOTS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      sword:
+        enchantamount: 1
+        piece: 'IRON_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 3
+      bow:
+        enchantamount: 1
+        enchant1:
+          type: 'ARROW_DAMAGE'
+          level: 1
+      arrow:
+        ammount: 64
+      gapple:
+        ammount: 5
+      potion1:
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 2
+      potion2: # this is the splash potion #
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 1
+        splash: 'yes'
+
+
+    vip:
+      cooldown: 3600
+      potionamount: 2
+      icon:
+        name: '&bVIP'
+        lore: 'Almost full prot 1 iron, fire bow, and 2 splash health!'
+        piece: 'bow'
+        enchantamount: 1
+        enchant1:
+          type: 'ARROW_FIRE'
+          level: 1
+      helmet:
+        enchantamount: 1
+        piece: 'IRON_HELMET'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      chestplate:
+        piece: 'IRON_CHESTPLATE'
+      leggings:
+        enchantamount: 1
+        piece: 'IRON_LEGGINGS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      boots:
+        enchantamount: 1
+        piece: 'IRON_BOOTS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      sword:
+        enchantamount: 1
+        piece: 'IRON_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 2
+      bow:
+        enchantamount: 1
+        enchant1:
+          type: 'ARROW_FIRE'
+          level: 1
+      arrow:
+        ammount: 64
+      potion1:
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 3
+      potion2: # this is the splash potion #
+        type: 'INSTANT_HEAL'
+        splash: 'yes'
+        level: 2
+        amount: 2
+
+
+    vipplus:
+      cooldown: 14400
+      potionamount: 2
+      icon:
+        name: '&bVIP+'
+        lore: 'Full prot 1 iron, sharp 3 iron sword, and 3 splash health!'
+        potion: # this is the splash potion #
+          type: 'INSTANT_HEAL'
+          level: 2
+          splash: 'yes'
+        amount: 3
+      helmet:
+        enchantamount: 1
+        piece: 'IRON_HELMET'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      chestplate:
+        enchantamount: 1
+        piece: 'IRON_CHESTPLATE'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      leggings:
+        enchantamount: 1
+        piece: 'IRON_LEGGINGS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      boots:
+        enchantamount: 1
+        piece: 'IRON_BOOTS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      sword:
+        enchantamount: 1
+        piece: 'IRON_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 3
+      bow:
+        enchantamount: 1
+        enchant1:
+          type: 'ARROW_DAMAGE'
+          level: 2
+        ammount: 64
+      potion1:
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 3
+      potion2: # this is the splash potion #
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 3
+        splash: 'yes'
+
+
+    vipplusplus:
+      cooldown: 180
+      potionamount: 1
+      icon:
+        name: '&bVIP++'
+        lore: 'Full prot 1 chain, bow with infinity and punch 1, and 4 health pots!'
+        piece: 'BOW'
+        enchantamount: 2
+        enchant1:
+          type: 'ARROW_INFINITE'
+          level: 1
+        enchant2:
+          type: 'ARROW_KNOCKBACK'
+          level: 1
+      helmet:
+        enchantamount: 1
+        piece: 'CHAINMAIL_HELMET'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      chestplate:
+        enchantamount: 1
+        piece: 'CHAINMAIL_CHESTPLATE'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      leggings:
+        enchantamount: 1
+        piece: 'CHAINMAIL_LEGGINGS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      boots:
+        enchantamount: 1
+        piece: 'CHAINMAIL_BOOTS'
+        enchant1:
+          type: 'PROTECTION_ENVIRONMENTAL'
+          level: 1
+      sword:
+        enchantamount: 1
+        piece: 'STONE_SWORD'
+        enchant1:
+          type: 'DAMAGE_ALL'
+          level: 2
+      bow:
+        enchantamount: 2
+        enchant1:
+          type: 'ARROW_INFINITE'
+          level: 1
+        enchant2:
+          type: 'ARROW_KNOCKBACK'
+          level: 1
+      arrow:
+        ammount: 1
+      potion1:
+        type: 'INSTANT_HEAL'
+        level: 2
+        amount: 4

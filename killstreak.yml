@@ -1,0 +1,71 @@
+killstreaks:
+  list:
+  - 3
+  - 5
+  - 10
+  - 15
+  - 25
+  - 50
+  3:
+    messagek: 'on a &4Killing Spree'
+    messagep: '&4Killing Spree'
+    rewards:
+       moneyforks: 100
+       moneyforendingks: 100
+       item: 'INSTANT_HEAL'
+       potion: 'yes'
+       amount: 1
+       tier: 1
+       splash: 'no'
+  5:
+    messagek: 'on a &4Rampage'
+    messagep: '&4Rampage'
+    rewards:
+       moneyforks: 200
+       moneyforendingks: 200
+       item: 'INSTANT_HEAL'
+       potion: 'yes'
+       amount: 1
+       tier: 2
+       splash: 'no'
+  10:
+    messagek: '&4Unstoppable'
+    messagep: 'killing an &4Unstoppable'
+    rewards:
+      moneyforks: 500
+      moneyforendingks: 500
+      item: 'INSTANT_HEAL'
+      potion: 'yes'
+      amount: 1
+      tier: 2
+      splash: 'yes'
+  15:
+    messagek: '&4Dominating'
+    messagep: 'killing a &4Dominator'
+    rewards:
+      moneyforks: 700
+      moneyforendingks: 700
+      item: 'GOLDEN_APPLE'
+      potion: 'no'
+      amount: 5
+      splash: 'no'
+  25:
+    messagek: '&4GodLike'
+    messagep: 'killing a &4GodLike'
+    rewards:
+      moneyforks: 1000
+      moneyforendingks: 1000
+      item: 'GOLDEN_APPLE'
+      potion: 'no'
+      amount: 7
+      splash: 'no'
+  50:
+    messagek: '&4GodLike'
+    messagep: 'killing a &4Legend'
+    rewards:
+      moneyforks: 2000
+      moneyforendingks: 2000
+      item: 'GOLDEN_APPLE'
+      potion: 'no'
+      amount: 10
+      splash: 'no'
